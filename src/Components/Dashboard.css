@@ -1,0 +1,62 @@
+.dashboard-area {
+  min-height: 100vh;
+  display: flex;
+  justify-items: center;
+  background-color: #36454f;
+}
+
+.loader-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1100;
+}
+
+.display-area {
+  background-color: #282c34;
+  align-items: flex-start;
+}
+.title-text {
+  color: rgb(214, 7, 7);
+}
+.form-area {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-right: 0.5rem;
+  align-items: center;
+  background-color: #282c34;
+}
+.card-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: 1rem; */
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 0.5rem;
+}
+.form-text-content {
+  /* position: fixed; */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: small;
+}
+.form-chips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+.modal {
+  display: flex;
+  height: 25vh;
+  /* align-items: center; */
+  justify-content: center;
+}

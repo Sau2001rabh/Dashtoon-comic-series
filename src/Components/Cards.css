@@ -1,0 +1,16 @@
+.card-area {
+  background-color: moccasin;
+  border: 1px;
+  border-color: beige;
+  border-radius: 2px;
+  width: 26vw;
+  height: 15vw;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button {
+  box-shadow: 2px 2px black;
+}
